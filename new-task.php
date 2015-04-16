@@ -12,4 +12,9 @@ $mysqli ->query("INSERT INTO task VALUES('', '$task', '$date', '$time')");
 $query = "SELECT = FROM tasks WHERE task='$task' and date='$date' and time='$time' ";
 
 
+if ($result = $mysqli->query(query)){
+
+
+	{
+
  ?>
