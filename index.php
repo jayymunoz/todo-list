@@ -5,8 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body
-<div>
+<div class"wrap">
 
-</div class"wrap">
+</div>
 </body>
 </html>
