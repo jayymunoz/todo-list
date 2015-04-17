@@ -18,9 +18,15 @@
     			$task_id = $row['id'];
     			$task_name = $row["task"];
 
-    			echo "<li>
-    			<span>'.$task_name'
-    			";
+
+      echo'<li>
+		<span>'.$task_name. '</span>
+		<img id="'.$task_id.'" class="delete-button" width="10px" src="images/close.svg"/>
+		</li>';
+
+      ';  
+
+    	
     		}
 
     	}
@@ -31,8 +37,7 @@
 </div>
 <form class="add-new-task" autocomplete="off">
 <input type="text" name="new-task" placeholder="Add new item..."/>
-</form>
-</div>
+ho</div>
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>
